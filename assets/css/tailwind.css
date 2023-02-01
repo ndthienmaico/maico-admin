@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    @apply bg-green-50;
+} */
+
+@layer components{
+    .btn{
+        @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm;
+    }
+    .btn:hover{
+        @apply bg-[#119c77] font-bold
+    }
+    .input-group{
+        @apply border border-black rounded-md px-3 py-0.5
+    }
+    .input-group:focus{
+        @apply border outline-none border-green-500 focus:ring-1 ring-green-500
+    }
+}

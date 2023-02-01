@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "gerane.theme-dracula",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode"
+  ]
+}

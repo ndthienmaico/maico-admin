@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/apollo": "^5.0.0-alpha.5",
+    "@nuxtjs/supabase": "^0.3.0",
+    "nuxt": "3.0.0",
+    "nuxt-icon": "^0.1.8"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.26.4",
+    "@editorjs/header": "^2.7.0",
+    "@editorjs/image": "^2.8.1",
+    "@editorjs/list": "^1.8.0",
+    "@editorjs/simple-image": "^1.5.1",
+    "@editorjs/table": "^2.1.2",
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "aws-sdk": "^2.1306.0",
+    "uuid": "^9.0.0",
+    "vue-toastification": "^2.0.0-rc.5"
+  }
+}
